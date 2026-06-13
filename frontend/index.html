@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Client Lead Management System</h1>
+
+        <form id="leadForm">
+            <input type="text" id="name" placeholder="Client Name" required>
+
+            <input type="email" id="email" placeholder="Client Email" required>
+
+            <input type="text" id="source" placeholder="Lead Source" required>
+
+            <textarea id="notes" placeholder="Follow-up Notes"></textarea>
+
+            <button type="submit">Add Lead</button>
+        </form>
+
+        <h2>Leads Dashboard</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Source</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+
+            <tbody id="leadList"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
