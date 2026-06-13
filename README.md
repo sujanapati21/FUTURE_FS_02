@@ -67,7 +67,7 @@ node server.js
 
 ### Frontend
 
-Open `index.html` in browser.
+Open `login.html` in browser.
 
 ---
 
@@ -84,8 +84,3 @@ Table: `leads`
 Sujana Pati
 
 ---
-
-## 🎯 Status
-
-✔ Project Completed Successfully
-✔ Ready for Internship Submission
