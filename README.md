@@ -55,13 +55,6 @@ FUTURE_FS_02
 
 ---
 
-## 🔐 Security Note
-
-* `.env` file contains sensitive data and is not uploaded to GitHub.
-* `.env.example` is provided for reference.
-
----
-
 ## ▶️ How to Run Project
 
 ### Backend
