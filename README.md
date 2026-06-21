@@ -6,7 +6,7 @@ A simple Customer Relationship Management (CRM) web application built using HTML
 
 ## 📌 Project Overview
 
-This project is a basic CRM system used to manage business leads. It allows users to add, view, and store lead information in a database with a secure login system.
+This project is a basic CRM system used to manage business leads. It allows users to add, view, store and delete lead information in a database with a secure login system.
 
 ---
 
@@ -39,11 +39,7 @@ FUTURE_FS_02
 │
 ├── backend
 │   ├── server.js
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── .env
-│   └── .env.example
-│
+│   
 ├── frontend
 │   ├── index.html
 │   ├── login.html
@@ -51,36 +47,3 @@ FUTURE_FS_02
 │   └── style.css
 │
 └── README.md
-```
-
----
-
-## ▶️ How to Run Project
-
-### Backend
-
-```bash
-cd backend
-npm install
-node server.js
-```
-
-### Frontend
-
-Open `login.html` in browser.
-
----
-
-## 📊 Database
-
-MySQL Database Name: `mini_crm`
-
-Table: `leads`
-
----
-
-## 👨‍💻 Author
-
-Sujana Pati
-
----
